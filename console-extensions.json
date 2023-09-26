@@ -47,5 +47,11 @@
       },
       "component": { "$codeRef": "ExamplePage" }
     }
+  },
+  {
+    "type": "console.flag/hookProvider",
+    "properties": {
+      "handler": { "$codeRef": "hookProvider.useFlagHookProvider" }
+    }
   }
 ]
